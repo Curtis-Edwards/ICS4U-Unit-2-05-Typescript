@@ -47,6 +47,20 @@ export default class Vehicle {
   }
 
   /*
+  * This method sets the color
+  */
+  public set color() {
+    this.color = color
+  }
+
+  /*
+  * This method sets the licence plate
+  */
+  public set licencePlate() {
+    this.licencePlate = licencePlate
+  }
+
+  /*
   * This method shows the status of the vehicle
   */
   public status() {
