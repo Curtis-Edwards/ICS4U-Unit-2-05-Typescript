@@ -49,15 +49,15 @@ export default class Vehicle {
   /*
   * This method sets the color
   */
-  public set color(color) {
-    this.color = color
+  public set color(value) {
+    this.color = value
   }
 
   /*
   * This method sets the licence plate
   */
-  public set licencePlate(licencePlate) {
-    this.licencePlate = licencePlate
+  public set licencePlate(value) {
+    this.licencePlate = value
   }
 
   /*
