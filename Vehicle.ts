@@ -24,7 +24,28 @@ export default class Vehicle {
     this.maxSpeed = maxSpeed
     this._speed = 0
   }
-  
+
+  /*
+  * This method gets the color
+  */
+  public get color() {
+    return this.color
+  }
+
+  /*
+  * This method gets the licence plate
+  */
+  public get licencePlate() {
+    return this.licencePlate
+  }
+
+  /*
+  * This method gets the speed
+  */
+  public get speed() {
+    return this._speed
+  }
+
   /*
   * This method shows the status of the vehicle
   */
