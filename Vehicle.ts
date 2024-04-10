@@ -42,7 +42,7 @@ export default class Vehicle {
   /*
   * This method gets the speed
   */
-  /*public get speed() {
+  public get speed() {
     return this._speed
   }
 
